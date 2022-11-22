@@ -10,7 +10,7 @@ from domain.user import user_router
 app = FastAPI()
 
 origins = [
-    "http://43.200.66.155:5173",
+    "http://localhost:5173",
 ]
 
 app.add_middleware(
